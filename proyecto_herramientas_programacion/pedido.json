@@ -1,0 +1,418 @@
+[
+  {
+    "pedido_id": "P001",
+    "fecha": "2024-09-15",
+    "cliente": {
+      "cliente_id": "C001",
+      "nombre": "Farmacia Central",
+      "tipo": "farmacia"
+    },
+    "productos": [
+      {
+        "codigo": "F001",
+        "nombre": "Comirnaty",
+        "categoria": "vacuna",
+        "unidades": 100,
+        "precio_unitario": 18.5,
+        "caducidad": "2026-03-15"
+      },
+      {
+        "codigo": "F004",
+        "nombre": "Amoxicilina",
+        "categoria": "antibiótico",
+        "unidades": 80,
+        "precio_unitario": 1.2,
+        "caducidad": "2025-12-01"
+      }
+    ],
+    "estado": "en proceso"
+  },
+  {
+    "pedido_id": "P002",
+    "fecha": "2024-09-16",
+    "cliente": {
+      "cliente_id": "C002",
+      "nombre": "Hospital San Pedro",
+      "tipo": "hospital"
+    },
+    "productos": [
+      {
+        "codigo": "F011",
+        "nombre": "Remdesivir",
+        "categoria": "antiviral",
+        "unidades": 60,
+        "precio_unitario": 15.7,
+        "caducidad": "2027-02-20"
+      }
+    ],
+    "estado": "en proceso"
+  },
+  {
+    "pedido_id": "P003",
+    "fecha": "2024-09-16",
+    "cliente": {
+      "cliente_id": "C003",
+      "nombre": "Farmacia López",
+      "tipo": "farmacia"
+    },
+    "productos": [
+      {
+        "codigo": "F012",
+        "nombre": "Paracetamol",
+        "categoria": "analgésico",
+        "unidades": 200,
+        "precio_unitario": 0.18,
+        "caducidad": "2025-05-01"
+      }
+    ],
+    "estado": "en proceso"
+  },
+  {
+    "pedido_id": "P004",
+    "fecha": "2024-09-17",
+    "cliente": {
+      "cliente_id": "C004",
+      "nombre": "Farmacia San José",
+      "tipo": "farmacia"
+    },
+    "productos": [
+      {
+        "codigo": "F002",
+        "nombre": "Spikevax",
+        "categoria": "vacuna",
+        "unidades": 90,
+        "precio_unitario": 19.9,
+        "caducidad": "2026-10-12"
+      },
+      {
+        "codigo": "F010",
+        "nombre": "Gardasil",
+        "categoria": "vacuna",
+        "unidades": 40,
+        "precio_unitario": 23.5,
+        "caducidad": "2026-12-01"
+      }
+    ],
+    "estado": "en proceso"
+  },
+  {
+    "pedido_id": "P005",
+    "fecha": "2024-09-18",
+    "cliente": {
+      "cliente_id": "C005",
+      "nombre": "Hospital Virgen Blanca",
+      "tipo": "hospital"
+    },
+    "productos": [
+      {
+        "codigo": "F020",
+        "nombre": "Actemra",
+        "categoria": "biológico",
+        "unidades": 30,
+        "precio_unitario": 185.0,
+        "caducidad": "2028-03-11"
+      }
+    ],
+    "estado": "por procesar"
+  },
+  {
+    "pedido_id": "P006",
+    "fecha": "2024-09-18",
+    "cliente": {
+      "cliente_id": "C006",
+      "nombre": "Farmacia El Pilar",
+      "tipo": "farmacia"
+    },
+    "productos": [
+      {
+        "codigo": "F008",
+        "nombre": "Humira",
+        "categoria": "biológico",
+        "unidades": 15,
+        "precio_unitario": 220.0,
+        "caducidad": "2027-09-25"
+      }
+    ],
+    "estado": "por procesar"
+  },
+  {
+    "pedido_id": "P007",
+    "fecha": "2024-09-19",
+    "cliente": {
+      "cliente_id": "C007",
+      "nombre": "Hospital General",
+      "tipo": "hospital"
+    },
+    "productos": [
+      {
+        "codigo": "F018",
+        "nombre": "Truvada",
+        "categoria": "antiviral",
+        "unidades": 180,
+        "precio_unitario": 12.4,
+        "caducidad": "2026-11-05"
+      }
+    ],
+    "estado": "en proceso"
+  },
+  {
+    "pedido_id": "P008",
+    "fecha": "2024-09-20",
+    "cliente": {
+      "cliente_id": "C008",
+      "nombre": "Hospital del Norte",
+      "tipo": "hospital"
+    },
+    "productos": [
+      {
+        "codigo": "F025",
+        "nombre": "Valneva",
+        "categoria": "vacuna",
+        "unidades": 70,
+        "precio_unitario": 16.1,
+        "caducidad": "2027-02-14"
+      }
+    ],
+    "estado": "en proceso"
+  },
+  {
+    "pedido_id": "P009",
+    "fecha": "2024-09-21",
+    "cliente": {
+      "cliente_id": "C009",
+      "nombre": "Farmacia Avenida",
+      "tipo": "farmacia"
+    },
+    "productos": [
+      {
+        "codigo": "F015",
+        "nombre": "Nolotil",
+        "categoria": "analgésico",
+        "unidades": 130,
+        "precio_unitario": 0.2,
+        "caducidad": "2025-07-30"
+      }
+    ],
+    "estado": "por procesar"
+  },
+  {
+    "pedido_id": "P010",
+    "fecha": "2024-09-22",
+    "cliente": {
+      "cliente_id": "C010",
+      "nombre": "Hospital San Pedro",
+      "tipo": "hospital"
+    },
+    "productos": [
+      {
+        "codigo": "F023",
+        "nombre": "Evusheld",
+        "categoria": "anticuerpo monoclonal",
+        "unidades": 25,
+        "precio_unitario": 230.0,
+        "caducidad": "2028-02-17"
+      }
+    ],
+    "estado": "en proceso"
+  },
+  {
+    "pedido_id": "P011",
+    "fecha": "2024-09-23",
+    "cliente": {
+      "cliente_id": "C011",
+      "nombre": "Farmacia del Sol",
+      "tipo": "farmacia"
+    },
+    "productos": [
+      {
+        "codigo": "F016",
+        "nombre": "Eprex",
+        "categoria": "biológico",
+        "unidades": 60,
+        "precio_unitario": 95.4,
+        "caducidad": "2027-09-22"
+      }
+    ],
+    "estado": "por procesar"
+  },
+  {
+    "pedido_id": "P012",
+    "fecha": "2024-09-23",
+    "cliente": {
+      "cliente_id": "C012",
+      "nombre": "Hospital Comarcal",
+      "tipo": "hospital"
+    },
+    "productos": [
+      {
+        "codigo": "F007",
+        "nombre": "Epclusa",
+        "categoria": "antiviral",
+        "unidades": 50,
+        "precio_unitario": 15.7,
+        "caducidad": "2027-11-09"
+      }
+    ],
+    "estado": "en proceso"
+  },
+  {
+    "pedido_id": "P013",
+    "fecha": "2024-09-24",
+    "cliente": {
+      "cliente_id": "C013",
+      "nombre": "Farmacia Nueva Vida",
+      "tipo": "farmacia"
+    },
+    "productos": [
+      {
+        "codigo": "F014",
+        "nombre": "Metformina",
+        "categoria": "antidiabético",
+        "unidades": 120,
+        "precio_unitario": 0.25,
+        "caducidad": "2026-04-19"
+      }
+    ],
+    "estado": "por procesar"
+  },
+  {
+    "pedido_id": "P014",
+    "fecha": "2024-09-24",
+    "cliente": {
+      "cliente_id": "C014",
+      "nombre": "Hospital Central Norte",
+      "tipo": "hospital"
+    },
+    "productos": [
+      {
+        "codigo": "F009",
+        "nombre": "Zarzio",
+        "categoria": "factor de crecimiento",
+        "unidades": 40,
+        "precio_unitario": 75.0,
+        "caducidad": "2026-06-18"
+      }
+    ],
+    "estado": "en proceso"
+  },
+  {
+    "pedido_id": "P015",
+    "fecha": "2024-09-25",
+    "cliente": {
+      "cliente_id": "C015",
+      "nombre": "Farmacia Esperanza",
+      "tipo": "farmacia"
+    },
+    "productos": [
+      {
+        "codigo": "F021",
+        "nombre": "Pfizer-BNT",
+        "categoria": "vacuna",
+        "unidades": 100,
+        "precio_unitario": 20.0,
+        "caducidad": "2026-09-19"
+      }
+    ],
+    "estado": "por procesar"
+  },
+  {
+    "pedido_id": "P016",
+    "fecha": "2024-09-26",
+    "cliente": {
+      "cliente_id": "C016",
+      "nombre": "Hospital La Paz",
+      "tipo": "hospital"
+    },
+    "productos": [
+      {
+        "codigo": "F017",
+        "nombre": "Xarelto",
+        "categoria": "anticoagulante",
+        "unidades": 80,
+        "precio_unitario": 22.9,
+        "caducidad": "2026-09-09"
+      }
+    ],
+    "estado": "en proceso"
+  },
+  {
+    "pedido_id": "P017",
+    "fecha": "2024-09-26",
+    "cliente": {
+      "cliente_id": "C017",
+      "nombre": "Farmacia Buenavista",
+      "tipo": "farmacia"
+    },
+    "productos": [
+      {
+        "codigo": "F019",
+        "nombre": "Soliris",
+        "categoria": "biológico",
+        "unidades": 25,
+        "precio_unitario": 210.0,
+        "caducidad": "2027-06-14"
+      }
+    ],
+    "estado": "por procesar"
+  },
+  {
+    "pedido_id": "P018",
+    "fecha": "2024-09-27",
+    "cliente": {
+      "cliente_id": "C018",
+      "nombre": "Hospital del Sur",
+      "tipo": "hospital"
+    },
+    "productos": [
+      {
+        "codigo": "F024",
+        "nombre": "Vaxzevria",
+        "categoria": "vacuna",
+        "unidades": 70,
+        "precio_unitario": 19.0,
+        "caducidad": "2026-04-25"
+      }
+    ],
+    "estado": "en proceso"
+  },
+  {
+    "pedido_id": "P019",
+    "fecha": "2024-09-28",
+    "cliente": {
+      "cliente_id": "C019",
+      "nombre": "Farmacia Luz",
+      "tipo": "farmacia"
+    },
+    "productos": [
+      {
+        "codigo": "F022",
+        "nombre": "Jynneos",
+        "categoria": "vacuna",
+        "unidades": 60,
+        "precio_unitario": 20.1,
+        "caducidad": "2026-10-30"
+      }
+    ],
+    "estado": "por procesar"
+  },
+  {
+    "pedido_id": "P020",
+    "fecha": "2024-09-29",
+    "cliente": {
+      "cliente_id": "C020",
+      "nombre": "Hospital del Este",
+      "tipo": "hospital"
+    },
+    "productos": [
+      {
+        "codigo": "F006",
+        "nombre": "Ventolin",
+        "categoria": "broncodilatador",
+        "unidades": 35,
+        "precio_unitario": 8.6,
+        "caducidad": "2025-08-12"
+      }
+    ],
+    "estado": "en proceso"
+  }
+]
